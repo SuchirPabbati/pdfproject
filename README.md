@@ -16,11 +16,11 @@ The application follows these steps to provide responses to your questions:
 
 2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
 
-3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+3. Language Model: The application utilizes a OpenAI embedding to generate vector representations (embeddings) of the text chunks.
 
 4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
 
-5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+5. Response Generation: The selected chunks are passed to OpenAI, which generates a response based on the relevant content of the PDFs.
 
 ## Dependencies and Installation
 ----------------------------
